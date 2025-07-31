@@ -3,7 +3,7 @@ class Vehicle:
     def move(self):
         print("The vehicle moves.")
 
-# Subclasses with different move() implementations
+# Subclasses with different move()  implementations
 class Car(Vehicle):
     def move(self):
         print("Driving 🚗")
